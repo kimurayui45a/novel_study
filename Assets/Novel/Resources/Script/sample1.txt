@@ -1,0 +1,28 @@
+
+
+Message, "", "メッセージ表示を行います。"
+
+Message, "田中太郎", "名前表示付きのメッセージです。"
+
+Message, "", "Chara01をLeft表示"
+
+Chara, Chara01, Left, 0.5
+
+Message, "", "次"
+Message, "", "Chara02をRight表示"
+
+Chara, Chara02, Right, 0.5
+
+Message, "", "次"
+
+Message, "", "Chara01をChara02へ変更"
+
+Chara, Chara02, Left, 0.5
+
+Message, "", "完了"
+
+
+
+Message, "", "１２３４５６８９９０１２３４５６７８９０１こんにちは！おはよう"
+
+
