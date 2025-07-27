@@ -4,11 +4,32 @@ Message, "", "メッセージ表示を行います。"
 
 Message, "田中太郎", "名前表示付きのメッセージです。"
 
+Message, "画像表示", "x：300 y：-50"
+
+Image, Image01, 300, -50, 1
+
+Message, "画像表示　その2", "x：100　y：-50"
+
+Image, Image02, 100, -50, 1
+
+Message, "画像移動", "3回移動"
+
+Image, Image01, 300, 0, 0.5
+
+Image, Image01, -250, 100, 0.5
+
+Image, Image01, 200, -50, 1
+
 Message, "", "Chara01をLeft表示"
 
 Chara, Chara01, Left, 0.5
 
+Message, "", "Chara01をRight表示"
+
+Chara, Chara01, Right, 0.5
+
 Message, "", "次"
+
 Message, "", "Chara02をRight表示"
 
 Chara, Chara02, Right, 0.5
@@ -20,8 +41,6 @@ Message, "", "Chara01をChara02へ変更"
 Chara, Chara02, Left, 0.5
 
 Message, "", "完了"
-
-
 
 Message, "", "１２３４５６８９９０１２３４５６７８９０１こんにちは！おはよう"
 

@@ -58,6 +58,9 @@ namespace Novel
                     case "Chara":
                         command = CommandBase.Create<Chara>(data);
                         break;
+                    case "Image":
+                        command = CommandBase.Create<Image>(data);
+                        break;
 
                     default:
                         Debug.LogError("command is unknown :"+ data[0].Trim());

@@ -34,10 +34,17 @@ namespace Novel
         [SerializeField]
         NovelUIChara uiCharaRight;
 
+        /// <summary>
+        /// •\Ž¦‚³‚ê‚é‰æ‘œUI
+        /// </summary>
+        [SerializeField]
+        NovelUIImage uiImage;
+
         // ŠeUI‚ÌŽQÆ‚ðŽæ“¾‚·‚é
         public NovelUIMessage UIMessage => uiMessage;
         public NovelUIChara UICharaLeft => uiCharaLeft;
         public NovelUIChara UICharaCenter => uiCharaCenter;
         public NovelUIChara UICharaRight => uiCharaRight;
+        public NovelUIImage UIImage => uiImage;
     }
 }
